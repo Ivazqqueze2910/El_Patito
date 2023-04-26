@@ -7,8 +7,8 @@ Algoritmo Promedio
 		
 		Leer n
 		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+			Escribir "El nÃºmero debe ser positivo y distinto de cero."
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
@@ -31,6 +31,13 @@ Algoritmo Promedio
 	prom<-acum/n
 	
 	Escribir "El promedio es: ",prom
-	
+	Escribir "Quiere continuar?"
+			Leer Respuesta
+			Si Respuesta="si" Entonces 
+				Escribir "continuamos"
+			FinSi
+			
+		Hasta que Respuesta="no"
+		
 FinAlgoritmo
 
